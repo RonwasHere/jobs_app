@@ -171,7 +171,7 @@ class _DetailPageState extends State<DetailPage> {
                           'Qualifications',
                           style: subTitleTextStyle,
                         ),
-                        SizedBox(height: 16),
+                        SizedBox(height: 16), //untuk kasik jarak spasi
                         Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
