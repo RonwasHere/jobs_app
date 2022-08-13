@@ -17,6 +17,7 @@ class _SignInPagesState extends State<SignInPages> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: SingleChildScrollView(
           child: Padding(

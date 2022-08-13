@@ -10,6 +10,7 @@ class SecondHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: SafeArea(
         child: Scaffold(
           body: SingleChildScrollView(
@@ -38,7 +39,7 @@ class SecondHomePage extends StatelessWidget {
                       ),
                       child: Text(
                         jobTitleHome,
-                        style: subTitleTextStyle,
+                        style: cardTitleTextStyle,
                       ),
                     ),
                     Padding(
@@ -48,7 +49,7 @@ class SecondHomePage extends StatelessWidget {
                       ),
                       child: Text(
                         '12,309 available',
-                        style: subTitleTextStyle,
+                        style: titleTextStyle,
                       ),
                     )
                   ],

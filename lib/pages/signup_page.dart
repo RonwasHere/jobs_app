@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:jobs_app/pages/home_page.dart';
 import 'package:jobs_app/theme.dart';
 
-
 class SignUpPage extends StatefulWidget {
   @override
   State<SignUpPage> createState() => _SignUpPageState();
@@ -56,6 +55,7 @@ class _SignUpPageState extends State<SignUpPage> {
     }
 
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: SingleChildScrollView(
           child: Padding(
@@ -190,7 +190,7 @@ class _SignUpPageState extends State<SignUpPage> {
                       ),
                     ),
                     onPressed: () {
-                       Navigator.push(
+                      Navigator.push(
                         context,
                         MaterialPageRoute(
                           builder: (context) => HomePage(),

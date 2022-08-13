@@ -31,3 +31,8 @@ TextStyle ketTitleTextStyle = GoogleFonts.poppins(
   fontSize: 14,
   fontWeight: FontWeight.w300,
 );
+TextStyle cardTitleTextStyle = GoogleFonts.poppins(
+  color: Color(0xffFFFFFF),
+  fontSize: 24,
+  fontWeight: FontWeight.w600,
+);
